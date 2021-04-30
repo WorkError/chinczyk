@@ -1,0 +1,2 @@
+# chinczyk
+chinczykGierat
