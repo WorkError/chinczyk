@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('/img/background3.jpg');
+    margin: 0;
+}
+
+.playerHeader {
+    width: 100%;
+    background: bisque;
+    min-height: 65px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 15px ;
+}
+
+.player {
+    font-size: 20px;
+    color: whitesmoke;
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 15px;
+}
+
+.container {
+    margin-left: 15%;
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.plansza {
+    position: relative;
+    height: 55vh;
+}
+
+.plansza img {
+    height: 100%;
+}
+
+.pawn {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid black;
+    width: 5%;
+    height: 5%;
+}
+
+.pointer {
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid black;
+    width: 5%;
+    height: 5%;
+    animation: pointer 0.5s infinite alternate;
+}
+
+@keyframes pointer {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.dice {
+    margin-top: 10px;
+    margin-left: 3%;
+}
+.dice img {
+    width:  60%;
+}
+
+.dice button {  
+    font-size: 23px;
+    font-weight: bold;
+    background-color: white;
+    padding: 20px 25px;
+    border: none;
+    border-bottom: 3px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+

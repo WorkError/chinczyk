@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#loginIpt {
+    font-size: 38px;
+    padding-left: 20px;
+    color: rgb(116, 101, 83);
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    outline: none;
+}
+
+#loginBtn {
+    font-size: 30px;
+    margin: 10px;
+    padding: 4px 9px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: white;
+    border: 2px outset white;
+    border-bottom: 3px solid rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+
